@@ -35,7 +35,7 @@ function App() {
               applicants qualify for financing, subject to review of
               credit/collateral. Equity Smart Home Loans NMLS#: 856170 DRE#:
               01906808 Headquarters: 1499 Huntington Dr Suite 500, South
-              Pasadena, CA 91030, (323) 258-4317
+              Pasadena, CA 91030, (323) 258-43177
             </p>
             <img className="footer-image" src={equalhousing} alt="logo" />
           </div>
