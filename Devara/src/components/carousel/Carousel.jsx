@@ -18,7 +18,7 @@ function MyCarousel() {
         <CarouselImage />
         <Carousel.Caption className="carousel-caption">
           <h3>Funded!!!</h3>
-          <h5>5521 Kester Ave #12, Sherman Oaks, CA 91411</h5>
+          <h5>5521 Kester Ave #12, Sherman Oaks, CA 914111</h5>
           <h1>$850,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
