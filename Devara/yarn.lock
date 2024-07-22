@@ -562,6 +562,13 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
+carousel@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/carousel/-/carousel-0.0.3.tgz#f83ca5583165bb98f174c01e67a1b54b902cc97f"
+  integrity sha512-7/6BwcKV4vepSCpurqJxTJlcigZAjU+RdhyRcye1RNEU/a8N8k7/jprMa7DGcVvP+A8xaHHvWqWq2qygJr1jcw==
+  dependencies:
+    domready "~0.2.12"
+
 chalk@^4.0.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
@@ -678,6 +685,11 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+domready@~0.2.12:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/domready/-/domready-0.2.13.tgz#5ec8340b5ee5f76ad72fd32007cfb5d38a2cd361"
+  integrity sha512-32G1m2FCiSLdxRVnamVdMVpgpSyE4aesx8Bof8Usm6dGpq+19PAXFtrKWWRYJoaSIfwTVTHV5wlQyyZ4aHhauA==
 
 es-abstract@^1.17.5, es-abstract@^1.22.1, es-abstract@^1.22.3, es-abstract@^1.23.0, es-abstract@^1.23.1, es-abstract@^1.23.2, es-abstract@^1.23.3:
   version "1.23.3"
@@ -1477,6 +1489,11 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
+
+navbar@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/navbar/-/navbar-2.1.0.tgz#5284095ca26d61243a9c36401e7c747696b51e59"
+  integrity sha512-s+EDPMotnD2Dd5sZmsS3ZX48vPxRfsryH1fHPqScjqM2DZJgpJ8oJvR0iZHL7mZt70zW7d/x7H8yCLkrjt/CCA==
 
 object-assign@^4.1.1:
   version "4.1.1"
