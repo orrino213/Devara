@@ -1,42 +1,320 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 1000px) {
+  
+  .about-container{
+    padding: 6rem;
+    display: flex;
+    color: white;
+    overflow: hidden; 
   }
-  to {
-    transform: rotate(360deg);
+  
+  .about-image{
+    width: 33%;
+    object-fit: cover; 
+    border-radius: 50px;
+  }
+
+  .about-text{
+    flex: 1;
+    padding-left: 3%;
+  }
+  
+  .body{
+    width: 100vw;
+    height:max-content;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand{
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin-left: 1rem;
+    padding-inline: 2rem;
+  }
+  
+  .carousel{
+    padding-top: 1rem;
+    padding-right: 2rem;
+    display: flex;
+    padding-left: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-caption {
+    margin-left: 35%;
+    width: 50%; 
+    text-align: center; 
+    position: absolute; 
+    left: 0; 
+    right: 0;
+    transform: translateX(-50%);
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain; 
+    height: 40rem;
+    width: 100%;
+    border-style: solid;
+    border-radius: 50px;
+  }
+
+  .contactus-container{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 3%;
+    color: white;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    background-color: black;
+    color: rgb(145, 145, 145);
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-container{
+    width: 90%;
+  }
+
+  .footer-image{
+    max-width: 7%;
+  }
+
+  .mission{
+    color: white;
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font-size: 175%;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: none;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .p{
+    font-size:xx-large ;
+  }
+
+  .privacy-container{
+    width: 65%;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title{
+    color: white;
+    background-color: black;
+    height: auto;
+    padding-top: 9%;
+    text-align: center;
+    font-size: 500%;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title-container{
+    min-height: 17rem;
+    overflow: hidden;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media screen and (max-width: 1000px) {
+  
+  .about-container{
+    margin-top: 80px;
+    display: block;
+    color: white;
+    overflow: hidden; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-image{
+    max-width: 90%;
+    object-fit: cover; 
+    border-radius: 45px;
+    margin-left: 5%;
+  }
+  
+  .about-text{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .body{
+    width: 100vw;
+    height:max-content;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brand{
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin-left: 1rem;
+    padding-inline: 2rem;
+  }
+  
+  .carousel-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+  }
+  
+  .carousel-caption {
+    margin-left: 35%;
+    margin-bottom: 10%;
+    width: 100%; 
+    text-align: center; 
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    font-size: xx-small;
+  }
+  
+  .carousel-image{
+    border-style: solid;
+    border-radius: 45px;
+    width: 100%;
+  }
+  
+  .cheeseburger{
+    margin-right: 5%;
+  }
+
+  .contactus-container{
+    width: 90%;
+    padding-block-start: .4rem;
+    padding-left: 30px;
+    padding-top: 70px;
+    color: white;
+  }
+  
+  .footer {
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 8%;
+    height:fit-content;
+    background-color: black;
+    color: rgb(145, 145, 145);
+    text-align: center;
+  }
+
+  .footer-container{
+    width: 90%;
+  }
+  
+  .footer-image{
+    max-width: 20%;
+    padding-bottom: 5%;
+  }
+
+  .mission{
+    background-color: black;
+    color: white;
+    font-size: 125%;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 5rem;
+    object-fit: contain;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    text-align: center;
+  }
+  
+  .p{
+    font-size:medium ;
+  }
+
+  .privacy-container{
+    width: 90%;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title{
+    color: white;
+    background-color: black;
+    padding-top: 20%;
+    text-align: center;
+    font-size: 500%;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title-container{
+    width: 100%;
+    overflow: none;
+    padding-left: 1%;
+    text-align: center;
   }
 }
 
-.card {
-  padding: 2em;
+
+@media screen and (max-width: 380px){
+  
+  .brand {
+    max-width: 70%;
+    margin-left: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    text-overflow: clip;
+    overflow: hidden;
+    transform-origin: left center;
+  }
 }
 
-.read-the-docs {
-  color: #888;
-}
+
