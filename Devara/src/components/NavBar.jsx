@@ -6,7 +6,7 @@ function MyNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-secondary" fixed="top">
       <Navbar.Brand href="/" className="brand">
-        Orbel the Loan Officer
+        DEVARA
       </Navbar.Brand>
       <Navbar.Toggle
         className="cheeseburger"

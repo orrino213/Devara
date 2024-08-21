@@ -1,4 +1,3 @@
-import MyCarousel from "./carousel/Carousel";
 import AboutUs from "./AboutUs";
 
 function Home() {
@@ -7,7 +6,6 @@ function Home() {
       <div className="title-container">
         <h1 className="title">DEVARA</h1>
       </div>
-      <MyCarousel />
       <AboutUs id="about" />
     </div>
   );
