@@ -1,10 +1,11 @@
 import AboutUs from "./AboutUs";
+import devaralogo from "../assets/devaralogo.png";
 
 function Home() {
   return (
     <div>
       <div className="title-container">
-        <h1 className="title">DEVARA</h1>
+        <img src={devaralogo} alt="logo" className="devaralogo" />
       </div>
       <AboutUs id="about" />
     </div>

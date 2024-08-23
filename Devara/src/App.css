@@ -83,6 +83,11 @@
     padding-left: 3%;
     color: white;
   }
+
+  .devaralogo{
+    width: 100%;
+    align-items: center;
+  }
   
   .footer {
     display: flex;
