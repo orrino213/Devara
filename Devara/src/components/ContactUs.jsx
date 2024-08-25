@@ -3,11 +3,11 @@ function ContactUs() {
     <div className="contactus-container">
       <h1>Contact Us</h1>
       <p>
-        Contact Orbel today to experience the difference a knowledgeable and
-        dedicated realtor can make in your real estate journey.asd
+        Contact us at Devara to bring your vision to life with a stunning
+        website or online application that exceeds your expectations.
       </p>
-      <p>Telephone: (818) 438-4222</p>
-      <p>Email: orbelsarkisian@gmail.com</p>
+      <p>Telephone: (818) 808-6041</p>
+      <p>Email: devara@gmail.com</p>
     </div>
   );
 }

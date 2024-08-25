@@ -1,22 +1,33 @@
-import orbelHeadshot from "../assets/orbelHeadshot.jpg";
+import orrinHeadshot from "../assets/orrinHeadshot.jpg";
 
 function AboutUs() {
   return (
     <div className="about-container">
-      <img className="about-image" src={orbelHeadshot} alt="orbleheadshot" />
+      <img className="about-image" src={orrinHeadshot} alt="orbleheadshot" />
       <div className="about-text">
-        <h1>About Orbel Sarkisian</h1>
+        <h1>About Devara</h1>
         <p className="p">
-          Hi! My name is Orbel Sarkisian and I am a mortgage advisor. I take
-          great pride in my ability to not only find the best suited mortgage
-          solutions for my clients but to also deliver the best suited options
-          in an organized and easy to understand manner. Sometimes this means
-          providing screen recording videos and other times it is over a zoom
-          meeting. My goal is to empower my clients with the right information
-          so that they can clearly see the best option for them
+          At Devara, we specialize in crafting custom software solutions that
+          empower businesses to thrive in the digital age. From dynamic websites
+          to robust online applications, our team is dedicated to delivering
+          high-quality, scalable, and user-friendly products tailored to your
+          unique needs. With a focus on innovation and excellence, we aim to
+          transform your ideas into reality, ensuring your business stands out
+          in a competitive landscape.
         </p>
-        <p>NMLS - 1606317</p>
-        <p>DRE - 02102368</p>
+        <h1>About Orrin Ohanian - Lead Developer</h1>
+        <p className="p">
+          Orrin Ohanian, our Lead Developer, brings a wealth of experience and
+          expertise in full-stack software development. With a strong background
+          in React, SQL, and C#, Orrin has successfully led numerous projects,
+          delivering top-tier solutions that meet both functional and aesthetic
+          demands. His commitment to quality, coupled with a deep understanding
+          of both front-end and back-end technologies, ensures that every
+          project at Devara is executed with precision and excellence. Orrin is
+          passionate about staying at the forefront of technology, constantly
+          honing his skills to provide the best possible outcomes for our
+          clients.
+        </p>
       </div>
     </div>
   );

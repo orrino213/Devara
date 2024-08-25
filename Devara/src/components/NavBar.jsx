@@ -4,7 +4,7 @@ import "../App.css";
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-secondary" fixed="top">
+    <Navbar expand="lg" className="bg-body-secondary navbar" fixed="top">
       <Navbar.Brand href="/" className="brand">
         DEVARA
       </Navbar.Brand>
