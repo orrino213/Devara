@@ -15,9 +15,8 @@ function MyNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/aboutus">About Me</Nav.Link>
-          <Nav.Link href="/contactus">Contact Us</Nav.Link>
-          <Nav.Link href="/privacy">Privacy Policy</Nav.Link>
+          <Nav.Link href="/aboutus">About</Nav.Link>
+          <Nav.Link href="/contactus">Contact</Nav.Link>
           <Nav.Link
             href="https://www.facebook.com/Orbeltheloanofficer"
             target="_blank"
