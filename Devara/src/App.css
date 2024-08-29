@@ -79,7 +79,6 @@
 
   .contactus-container{
     width: 50%;
-    padding-top: 10%;
     padding-left: 3%;
     color: white;
   }
@@ -240,8 +239,8 @@
 
   .contactus-container{
     width: 90%;
-    padding-block-start: .4rem;
     padding-left: 30px;
+    padding-top: 100px;
     color: white;
   }
 
