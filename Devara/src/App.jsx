@@ -3,10 +3,10 @@ import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import MyNavbar from "./components/NavBar";
-import Register from "./components/Register";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./components/Footer";
+import MortgageCalculator from "./components/MortgageCalculator";
 
 function App() {
   return (
@@ -18,7 +18,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/contactus" element={<ContactUs />} />
-            <Route path="/register" element={<Register />} />
+            <Route
+              path="/mortgagecalculator"
+              element={<MortgageCalculator />}
+            />
           </Routes>
         </BrowserRouter>
         <Footer />

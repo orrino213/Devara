@@ -30,15 +30,13 @@
   }
 
   .brand{
-    border-style: solid;
-    border-radius: 50px;
+    border: none;
     text-align: center;
     align-items: center;
     justify-content: center;
     left: 0;
     right: 0;
-    margin-left: 1rem;
-    padding-inline: 2rem;
+    padding-left: 30px;
   }
   
   .carousel{
@@ -130,6 +128,13 @@
     font-style: normal;
   }
 
+  .navlogo{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+
   .p{
     font-size:xx-large ;
   }
@@ -197,8 +202,7 @@
   }
   
   .brand{
-    border-style: solid;
-    border-radius: 50px;
+    border: none;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -291,6 +295,13 @@
     text-align: center;
   }
   
+  .navlogo{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+
   .p{
     font-size:medium ;
   }

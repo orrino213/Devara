@@ -1,12 +1,13 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../App.css";
+import devaralogo from "../assets/devaralogo.png";
 
 function MyNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-secondary navbar" fixed="top">
       <Navbar.Brand href="/" className="brand">
-        DEVARA
+        <img src={devaralogo} alt="logo" className="navlogo" />
       </Navbar.Brand>
       <Navbar.Toggle
         className="cheeseburger"
@@ -17,6 +18,7 @@ function MyNavbar() {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/aboutus">About</Nav.Link>
           <Nav.Link href="/contactus">Contact</Nav.Link>
+          <Nav.Link href="/mortgagecalculator">Mortgage Calculator</Nav.Link>
           <Nav.Link
             href="https://www.facebook.com/devarasoftware"
             target="_blank"
