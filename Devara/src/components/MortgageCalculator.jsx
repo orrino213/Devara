@@ -37,7 +37,7 @@ function MortgageCalculator() {
   };
 
   return (
-    <div className="calculator-container">
+    <div className="container">
       <h1>Mortgage Calculator</h1>
       <div className="main-cont">
         <div className="label">
