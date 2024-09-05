@@ -5,7 +5,7 @@ import devaralogo from "../assets/devaralogo.png";
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-secondary navbar" fixed="top">
+    <Navbar expand="lg" className="bg-body-secondary" fixed="top">
       <Navbar.Brand href="/" className="brand">
         <img src={devaralogo} alt="logo" className="navlogo" />
       </Navbar.Brand>
