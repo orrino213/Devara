@@ -5,7 +5,7 @@ function ContactUs() {
         <h1>Contact Us</h1>
         <p>
           Contact us at Devara to bring your vision to life with a stunning
-          website or online application that exceeds your expectations.
+          website or online application that exceeds your expectations.yay!
         </p>
         <p>Telephone: (818) 808-6041</p>
         <p>Email: devara@gmail.com</p>
