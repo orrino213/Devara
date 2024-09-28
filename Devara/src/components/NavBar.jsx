@@ -19,6 +19,7 @@ function MyNavbar() {
           <Nav.Link href="/aboutus">About</Nav.Link>
           <Nav.Link href="/contactus">Contact</Nav.Link>
           <Nav.Link href="/mortgagecalculator">Mortgage Calculator</Nav.Link>
+          <Nav.Link href="/shop">Shop</Nav.Link>
           <Nav.Link
             href="https://www.facebook.com/devarasoftware"
             target="_blank"

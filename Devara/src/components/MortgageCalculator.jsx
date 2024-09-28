@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/mortgageCalculator.css";
+import "./mortgageCalculator.css";
 
 function MortgageCalculator() {
   const [amount, setAmount] = useState("");
