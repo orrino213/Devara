@@ -1,5 +1,5 @@
-import { Products } from "./Products";
-import { Product } from "./Product";
+import { products } from "./Products";
+import { product } from "./Product";
 
 function Shop() {
   return (
