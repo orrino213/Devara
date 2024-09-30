@@ -1,4 +1,4 @@
-import { products } from "./products";
+import { Products } from "./Products";
 import { Product } from "./Product";
 
 function Shop() {
