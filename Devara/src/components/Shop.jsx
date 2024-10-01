@@ -1,5 +1,5 @@
 import { products } from "./Products";
-import { product } from "./Product";
+import { Product } from "./Product";
 
 function Shop() {
   return (
@@ -10,7 +10,7 @@ function Shop() {
       <div className="products">
         {""}
         {products.map((product) => (
-          <Product data={product} />
+          <Product key="1" data={product} />
         ))}
       </div>
     </div>
