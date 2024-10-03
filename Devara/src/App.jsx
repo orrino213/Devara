@@ -8,27 +8,30 @@ import "./App.css";
 import Footer from "./components/Footer";
 import MortgageCalculator from "./components/MortgageCalculator";
 import Shop from "./components/Shop";
-import Cart from "./components/Cart";
+import { Cart } from "./components/Cart";
+import { ShopContextProvider } from "./components/ShopContext";
 
 function App() {
   return (
     <div className="body">
       <div>
-        <MyNavbar />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/aboutus" element={<AboutUs />} />
-            <Route path="/contactus" element={<ContactUs />} />
-            <Route
-              path="/mortgagecalculator"
-              element={<MortgageCalculator />}
-            />
-            <Route path="/shop" element={<Shop />} />
-            <Route path="/cart" element={<Cart />} />
-          </Routes>
-        </BrowserRouter>
-        <Footer />
+        <ShopContextProvider>
+          <MyNavbar />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/aboutus" element={<AboutUs />} />
+              <Route path="/contactus" element={<ContactUs />} />
+              <Route
+                path="/mortgagecalculator"
+                element={<MortgageCalculator />}
+              />
+              <Route path="/shop" element={<Shop />} />
+              <Route path="/cart" element={<Cart />} />
+            </Routes>
+          </BrowserRouter>
+          <Footer />
+        </ShopContextProvider>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../App.css";
 import devaralogo from "../assets/devaralogo.png";
+import { ShoppingCart } from "phosphor-react";
 
 function MyNavbar() {
   return (
@@ -19,7 +20,6 @@ function MyNavbar() {
           <Nav.Link href="/aboutus">About</Nav.Link>
           <Nav.Link href="/contactus">Contact</Nav.Link>
           <Nav.Link href="/mortgagecalculator">Mortgage Calculator</Nav.Link>
-          <Nav.Link href="/shop">Shop</Nav.Link>
           <Nav.Link
             href="https://www.facebook.com/devarasoftware"
             target="_blank"
@@ -33,6 +33,10 @@ function MyNavbar() {
             rel="noopener noreferrer"
           >
             Instagram
+          </Nav.Link>
+          <Nav.Link href="/shop">Shop</Nav.Link>
+          <Nav.Link href="/cart">
+            <ShoppingCart size={32} />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

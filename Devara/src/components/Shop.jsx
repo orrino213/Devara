@@ -1,5 +1,6 @@
 import { products } from "./Products";
 import { Product } from "./Product";
+import "./shop.css";
 
 function Shop() {
   return (
@@ -8,9 +9,8 @@ function Shop() {
         <h1>Devara Shop</h1>
       </div>
       <div className="products">
-        {""}
         {products.map((product) => (
-          <Product key="1" data={product} />
+          <Product key={product.id} data={product} />
         ))}
       </div>
     </div>

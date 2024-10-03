@@ -22,7 +22,7 @@ export const products = [
   },
   {
     id: 3,
-    productName: "headphones",
+    productName: "Headphones",
     price: 69.99,
     productImage: headphones,
   },
