@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./components/Footer";
 import MortgageCalculator from "./components/MortgageCalculator";
-import Shop from "./components/Shop";
+import { Shop } from "./components/Shop";
 import { Cart } from "./components/Cart";
 import { ShopContextProvider } from "./components/ShopContext";
 

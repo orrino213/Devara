@@ -2,7 +2,7 @@ import { products } from "./Products";
 import { Product } from "./Product";
 import "./shop.css";
 
-function Shop() {
+export const Shop = () => {
   return (
     <div className="shop">
       <div className="shop-title">
@@ -15,6 +15,4 @@ function Shop() {
       </div>
     </div>
   );
-}
-
-export default Shop;
+};
