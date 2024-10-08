@@ -1,0 +1,42 @@
+@media screen and (min-width: 1000px) {
+    .about-container{
+        padding: 6rem;
+        display: flex;
+        color: white;
+        overflow: hidden; 
+      }
+      
+      .about-image{
+        width: 33%;
+        object-fit: contain; 
+        border-radius: 50px;
+      }
+    
+      .about-text{
+        flex: 1;
+        padding-left: 3%;
+      }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-container{
+        margin-top: 80px;
+        display: block;
+        color: white;
+        overflow: hidden; 
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .about-image{
+        max-width: 90%;
+        object-fit: cover; 
+        border-radius: 45px;
+        margin-left: 5%;
+      }
+      
+      .about-text{
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+}

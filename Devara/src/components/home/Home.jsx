@@ -1,11 +1,12 @@
-import devaralogo from "../assets/devaralogo.png";
+import devaralogo from "../../assets/devaralogo.png";
 import { useNavigate } from "react-router-dom";
+import "./home.css";
 
 function Home() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/aboutus");
+    navigate("/about");
   };
 
   return (

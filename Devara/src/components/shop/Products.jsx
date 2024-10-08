@@ -1,11 +1,11 @@
-import iphoneSE from "../assets/products/iphoneSE.webp";
-import gamingChair from "../assets/products/gamingChair.jpg";
-import headphones from "../assets/products/headphones.jpg";
-import hoodie from "../assets/products/hoodie.jpg";
-import macbook from "../assets/products/macbook.jpg";
-import mouse from "../assets/products/mouse.avif";
-import tshirt from "../assets/products/tshirt.jpg";
-import waterBottle from "../assets/products/waterBottle.webp";
+import iphoneSE from "../../assets/products/iphoneSE.webp";
+import gamingChair from "../../assets/products/gamingChair.jpg";
+import headphones from "../../assets/products/headphones.jpg";
+import hoodie from "../../assets/products/hoodie.jpg";
+import macbook from "../../assets/products/macbook.jpg";
+import mouse from "../../assets/products/mouse.avif";
+import tshirt from "../../assets/products/tshirt.jpg";
+import waterBottle from "../../assets/products/waterBottle.webp";
 
 export const products = [
   {

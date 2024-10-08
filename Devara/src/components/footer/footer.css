@@ -1,0 +1,35 @@
+@media screen and (min-width: 1000px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 100%;
+        background-color: black;
+        color: rgb(145, 145, 145);
+        text-align: center;
+        align-items: center;
+      }
+    
+      .footer-container{
+        width: 90%;
+      }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        width: 100%;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-left: 8%;
+        height:fit-content;
+        background-color: black;
+        color: rgb(145, 145, 145);
+        text-align: center;
+      }
+    
+      .footer-container{
+        width: 90%;
+      }
+}
+

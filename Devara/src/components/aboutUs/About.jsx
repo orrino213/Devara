@@ -1,6 +1,7 @@
-import orrinHeadshot from "../assets/orrinHeadshot.jpg";
+import orrinHeadshot from "../../assets/orrinHeadshot.jpg";
+import "./about.css";
 
-function AboutUs() {
+function About() {
   return (
     <div className="about-container">
       <img className="about-image" src={orrinHeadshot} alt="orbleheadshot" />
@@ -33,4 +34,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default About;

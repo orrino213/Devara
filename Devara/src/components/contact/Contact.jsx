@@ -1,7 +1,9 @@
-function ContactUs() {
+import "./contact.css";
+
+function Contact() {
   return (
     <div className="body">
-      <div className="contactus-container">
+      <div className="contact-container">
         <h1>Contact Us</h1>
         <p>
           Contact us at Devara to bring your vision to life with a stunning
@@ -14,4 +16,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default Contact;
