@@ -8,14 +8,17 @@
 
       .navbar{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        text-align: center;
+        width: 80vw;
+        margin: auto;
       }
 
       .navlogo{
         width: 60px;
         object-fit: contain;
-        border-radius: 10%;
+        border-radius: 25%;
       }
 }
 
