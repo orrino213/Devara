@@ -14,7 +14,7 @@ function About() {
           high-quality, scalable, and user-friendly products tailored to your
           unique needs. With a focus on innovation and excellence, we aim to
           transform your ideas into reality, ensuring your business stands out
-          in a competitive landscape.
+          in a competitive landscape!!!
         </p>
         <h1>About Orrin Ohanian - Lead Developer</h1>
         <p className="p">
