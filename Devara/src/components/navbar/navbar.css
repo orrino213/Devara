@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media (max-width: 480px) {
     .brand{
         border: none;
         text-align: center;
@@ -16,13 +16,13 @@
       }
 
       .navlogo{
-        width: 60px;
+        width: auto;
         object-fit: contain;
         border-radius: 25%;
       }
 }
 
-@media screen and (max-width: 1000px) {
+@media (min-width: 481) and (max-width: 768px) {
     .brand{
         border: none;
         text-align: center;
@@ -41,13 +41,13 @@
       }
 
       .navlogo{
-        width: 60px;
+        width: auto;
         object-fit: contain;
         border-radius: 10%;
       } 
 }
 
-@media screen and (max-width: 380px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .brand {
         max-width: 70%;
         margin-left: 10px;
@@ -58,6 +58,10 @@
         overflow: hidden;
         transform-origin: left center;
       }
+}
+
+@media (min-width: 1025px) {
+
 }
 
 
