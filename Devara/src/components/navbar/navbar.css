@@ -1,18 +1,18 @@
-    .category{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-      }
+.category{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 
-      .navbar{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-      .navlogo{
-        width: 15%;
-        object-fit: contain;
-        border-radius: 25%;
-      }
+.navlogo{
+  width: 15%;
+  object-fit: contain;
+  border-radius: 25%;
+}
