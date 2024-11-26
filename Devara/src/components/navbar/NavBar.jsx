@@ -5,24 +5,24 @@ import "./navbar.css";
 function MyNavbar() {
   return (
     <nav className="navbar">
-      <div className="brand">
+      <div className="category">
         <a href="/">
           <img src={devaralogo} alt="logo" className="navlogo" />
         </a>
       </div>
-      <div>
+      <div className="category">
         <a href="/">Home</a>
       </div>
-      <div>
+      <div className="category">
         <a href="/about">About</a>
       </div>
-      <div>
+      <div className="category">
         <a href="/contact">Contact</a>
       </div>
-      <div>
+      <div className="category">
         <a href="/mortgagecalculator">Mortgage Calculator</a>
       </div>
-      <div>
+      <div className="category">
         <a
           href="https://www.facebook.com/devarasoftware"
           target="_blank"
@@ -31,7 +31,7 @@ function MyNavbar() {
           Facebook
         </a>
       </div>
-      <div>
+      <div className="category">
         <a
           href="https://www.instagram.com/orbel_the_loan_officer/?hl=en"
           target="_blank"
@@ -40,10 +40,10 @@ function MyNavbar() {
           Instagram
         </a>
       </div>
-      <div>
+      <div className="category">
         <a href="/shop">Shop</a>
       </div>
-      <div>
+      <div className="category">
         <a href="/cart">
           <ShoppingCart size={32} />
         </a>
