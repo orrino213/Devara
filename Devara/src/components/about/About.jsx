@@ -4,7 +4,9 @@ import "./about.css";
 function About() {
   return (
     <div className="about-container">
-      <img className="about-image" src={orrinHeadshot} alt="sheadshot" />
+      <div className="about-image-container">
+        <img className="about-image" src={orrinHeadshot} alt="sheadshot" />
+      </div>
       <div className="about-text">
         <h1>About Devara</h1>
         <p className="p">

@@ -4,14 +4,13 @@ import "./home.css";
 
 function Home() {
   const navigate = useNavigate();
-
   const handleClick = () => {
     navigate("/about");
   };
 
   return (
-    <div>
-      <div className="title-container">
+    <div className="home-container">
+      <div className="logo-container">
         <img
           src={devaralogo}
           alt="logo"

@@ -1,22 +1,25 @@
 @media screen and (min-width: 1000px) {
     .about-container{
         display: flex;
-        color: white;
-        width: 50%;
         justify-content: center;
         align-items: center;
-        margin: auto;
       }
-      
+
+      .about-image-container{
+        padding: 1%;
+        width: 30%;
+      }
+
       .about-image{
-        width: 33%;
-        object-fit: contain; 
-        border-radius: 20px;
+        border-radius: 50px;
+        object-fit: cover;
+        width: 100%;
       }
     
       .about-text{
         flex: 1;
         padding-left: 30px;
+        color: white;
       }
 }
 
@@ -24,21 +27,14 @@
     .about-container{
         margin-top: 80px;
         display: block;
-        color: white;
         overflow: hidden; 
         align-items: center;
         justify-content: center;
       }
       
-      .about-image{
-        max-width: 90%;
-        object-fit: cover; 
-        border-radius: 45px;
-        margin-left: 5%;
-      }
-      
       .about-text{
         margin-left: 5%;
         margin-right: 5%;
+        color: white;
       }
 }

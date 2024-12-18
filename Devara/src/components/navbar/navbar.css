@@ -1,18 +1,17 @@
 .category{
   text-align: center;
   align-items: center;
-  justify-content: center;
 }
 
 .navbar{
-  width: 100%;
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-around;
 }
 
 .navlogo{
-  width: 15%;
   object-fit: contain;
   border-radius: 25%;
+  width: 100px;
 }
