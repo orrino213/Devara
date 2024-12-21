@@ -12,6 +12,7 @@
 
 .navlogo{
   object-fit: contain;
-  border-radius: 25%;
+  border-radius: 15%;
   width: 100px;
+  padding: 20px;
 }
