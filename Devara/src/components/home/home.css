@@ -1,31 +1,42 @@
 @media screen and (min-width: 1000px) {
   .devaralogo{
     display: block;
-    width: 100%;
+    width: auto;
     border-radius: 50px;
+    justify-content: center;
+    align-items: center;
   }
 
   .home-container{
-    width: 100%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo-container{
     padding: 5%;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .devaralogo{
     display: block;
-    width: 100%;
+    width: auto;
     border-radius: 50px;
+    justify-content: center;
   }
 
   .home-container{
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo-container{
     padding: 5%;
+    justify-content: center;
+    align-items: center;
   }
 }
