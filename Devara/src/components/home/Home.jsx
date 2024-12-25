@@ -10,15 +10,13 @@ function Home() {
 
   return (
     <div className="home-container">
-      <div className="logo-container">
-        <img
-          src={devaralogo}
-          alt="logo"
-          className="devaralogo"
-          onClick={handleClick}
-          style={{ cursor: "pointer" }}
-        />
-      </div>
+      <img
+        className="devaralogo"
+        src={devaralogo}
+        alt="logo"
+        onClick={handleClick}
+        style={{ cursor: "pointer" }}
+      />
     </div>
   );
 }
