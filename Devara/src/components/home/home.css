@@ -1,8 +1,9 @@
-.devaralogo{
+.devaralogo {
   border-radius: 50px;
 }
 
-.home-container{
+.home-container {
+  display: flex;
   width: 100vw;
   justify-content: center;
   align-items: center;

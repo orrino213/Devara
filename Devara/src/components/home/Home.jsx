@@ -17,6 +17,9 @@ function Home() {
         onClick={handleClick}
         style={{ cursor: "pointer" }}
       />
+      <div>
+        <button href=""></button>
+      </div>
     </div>
   );
 }
