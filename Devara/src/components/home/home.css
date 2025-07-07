@@ -1,8 +1,10 @@
 .devaralogo {
-  border-radius: 50px;
-  max-height: 100px;
-  width: 70%;
-  justify-content: ;
+  display: flex;
+  border-radius: 20%;
+  max-height: 1000px;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-container {

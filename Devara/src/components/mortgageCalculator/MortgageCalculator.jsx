@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./mortgageCalculator.css";
+import { formatUSD } from "../../utils/helpers.js";
 
 function MortgageCalculator() {
   const [amount, setAmount] = useState("");
@@ -53,7 +54,7 @@ function MortgageCalculator() {
         </div>
         <div className="label">
           <label>
-            Down Payment
+            Down Paymenty
             <input
               type="number"
               value={downPayment}
@@ -90,14 +91,15 @@ function MortgageCalculator() {
         {error && <h3 className="res">{error}</h3>}
         {monthlyPayment && (
           <div className="res">
-            <h3>Monthly Payment: $ {monthlyPayment}</h3>
-            <h3>Total Loan Payment: $ {totalPayable}</h3>
-            <h3>Total Interest Payment: $ {totalInterest}</h3>
+            <h3>Monthly Payment: {formatUSD(monthlyPayment)}</h3>
+            <h3>Total Loan Payment: {formatUSD(totalPayable)}</h3>
+            <h3>Total Interest Payment: {formatUSD(totalInterest)}</h3>
           </div>
         )}
       </div>
     </div>
   );
 }
+//return <div>{formatUSD(amount)}</div>;
 
 export default MortgageCalculator;
