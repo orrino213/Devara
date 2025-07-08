@@ -100,6 +100,5 @@ function MortgageCalculator() {
     </div>
   );
 }
-//return <div>{formatUSD(amount)}</div>;
 
 export default MortgageCalculator;
