@@ -54,7 +54,7 @@ function MortgageCalculator() {
         </div>
         <div className="label">
           <label>
-            Down Paymenty
+            Down Payment
             <input
               type="number"
               value={downPayment}

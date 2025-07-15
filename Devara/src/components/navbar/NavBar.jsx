@@ -1,15 +1,9 @@
-import devaralogo from "../../assets/devaralogo.png";
 import { ShoppingCart } from "phosphor-react";
 import "./navbar.css";
 
 function MyNavbar() {
   return (
     <nav className="navbar">
-      <div className="category">
-        <a href="/">
-          <img src={devaralogo} alt="logo" className="navlogo" />
-        </a>
-      </div>
       <div className="category">
         <a href="/">Home</a>
       </div>

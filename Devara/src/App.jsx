@@ -3,7 +3,6 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import ContactUs from "./components/contact/Contact";
 import MyNavbar from "./components/navbar/NavBar";
-import "./App.css";
 import Footer from "./components/footer/Footer";
 import MortgageCalculator from "./components/mortgageCalculator/MortgageCalculator";
 import { Shop } from "./components/shop/Shop";
