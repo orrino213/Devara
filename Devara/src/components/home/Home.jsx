@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="home-container">
       <img
-        className="devaralogo"
+        className="home-devaralogo"
         src={devaralogo}
         alt="logo"
         onClick={handleClick}

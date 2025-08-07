@@ -14,7 +14,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(0, 57, 65, 0.26);
+  background-color: rgba(0, 57, 65);
 }
 
 .navbar a {
