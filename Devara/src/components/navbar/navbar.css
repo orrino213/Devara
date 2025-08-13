@@ -1,39 +1,85 @@
-.category {
-  text-align: center;
-  align-items: center;
-  text-decoration: none;
+@media (min-width: 1000px) {
+  .category {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .navbar {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(6, 0, 34);
+  }
+
+  .navbar a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .navbar a:hover {
+    color: rgb(117, 117, 203);
+  }
+
+  .navlogo {
+    object-fit: contain;
+    border-radius: 15%;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+  }
 }
 
-.navbar {
-  width: 100vw;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-decoration: none;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: rgba(0, 57, 65);
-}
+@media (max-width: 1000px) {
+  .category {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+  }
 
-.navbar a {
-  text-decoration: none;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: rgb(16, 170, 225);
-}
+  .navbar {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(6, 0, 34);
+  }
 
-.navbar a:hover {
-  color: blue;
-}
+  .navbar a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
 
-.navlogo {
-  object-fit: contain;
-  border-radius: 15%;
-  width: 100px;
-  padding: 10px;
-  text-decoration: none;
+  .navbar a:hover {
+    color: rgb(117, 117, 203);
+  }
+
+  .navlogo {
+    object-fit: contain;
+    border-radius: 15%;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+  }
 }
