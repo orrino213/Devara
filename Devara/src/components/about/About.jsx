@@ -3,12 +3,12 @@ import "./about.css";
 
 function About() {
   return (
-    <div className="about-container">
+    <div className="about-container color-theme-8">
       <div className="about-image-container">
         <img className="about-image" src={orrinHeadshot} alt="sheadshot" />
       </div>
       <div className="about-text">
-        <h1>About Devara</h1>
+        <h1 className="color-theme-2">Devara</h1>
         <p className="p">
           At Devara, we specialize in crafting custom software solutions that
           empower businesses to thrive in the digital age. From dynamic websites
@@ -18,7 +18,7 @@ function About() {
           transform your ideas into reality, ensuring your business stands out
           in a competitive landscape.
         </p>
-        <h1>About Orrin Ohanian - Lead Developer</h1>
+        <h1 className="color-theme-2">Orrin Ohanian - Lead Developer</h1>
         <p className="p">
           Orrin Ohanian, our Lead Developer, brings a wealth of experience and
           expertise in full-stack software development. With a strong background

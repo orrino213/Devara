@@ -1,0 +1,36 @@
+/* reset.css */
+
+/* Remove default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure headings inherit font and color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+
+/* Ensure all text inherits font and color unless explicitly set */
+body,
+button,
+input,
+textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* Optional: smooth font rendering */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
